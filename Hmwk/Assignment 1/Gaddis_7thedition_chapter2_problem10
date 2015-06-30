@@ -1,0 +1,40 @@
+/* 
+ * File:   Lab 3.cpp
+ * Author: Bilal Abu-Seraj
+ *
+ * Created on June 29, 2015, 2:06 PM
+ */
+
+#include <cstdlib>
+#include <stdio.h>
+#include <iostream>
+#include <string>
+using namespace std;
+
+//User Libraries 
+
+//Global Constants 
+
+//Function Prototype 
+
+//Execution begins here!
+
+int main(int argc, char** argv) 
+{
+    
+    //Declare Variables 
+    
+    string name = ": Bilal Abu-Seraj ";
+    string address = ": 4800 Magnolia Avenue"; //RCC address
+    string city = ": Riverside";
+    string zip_code = ": 92506";
+    string telephone_number = ": (951) 222-8000";
+    string college_major = ": Chemical Engineering"; //Major at UCR
+  
+  //output results
+   cout << "Name " <<name<< "\nAddress " <<address<< "\nCity " <<city<< "\nZip Code "
+   <<zip_code<< "\nTelephone # " <<telephone_number<< "\nCollege Major " <<college_major<<endl;
+    
+    //Exit Stage Right!
+    return 0;
+}

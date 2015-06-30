@@ -1,0 +1,28 @@
+/* 
+ * File:   main.cpp
+ * Author: Bilal Abu-Seraj
+ *
+ * Created on June 29, 2015, 2:55 p.m.
+ */
+
+#include<iostream>
+using namespace std;
+ 
+int main() 
+{
+  char character; //list of data types
+  int integer;
+  float singlepnt;
+  double doublepnt;
+ 
+  string output;
+ 
+  output = to_string(sizeof(character)) + ", " + to_string(sizeof(integer)) +
+        ", " + to_string(sizeof(singlepnt)) + ", " +
+        to_string(sizeof(doublepnt));
+ 
+  cout << output; //displays the size of each data type
+ 
+  return 0;
+}
+
